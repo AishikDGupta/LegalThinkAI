@@ -1,0 +1,39 @@
+{
+  "name": "legalthinkai-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "@mui/icons-material": "^5.15.0",
+    "@tiptap/extension-font-size": "^2.1.0",
+    "@tiptap/extension-text-align": "^2.1.0",
+    "@tiptap/extension-text-style": "^2.1.0",
+    "@tiptap/extension-underline": "^2.1.0",
+    "@tiptap/react": "^2.1.0",
+    "@tiptap/starter-kit": "^2.1.0",
+    "axios": "^1.6.0",
+    "docx": "^8.0.0",
+    "framer-motion": "^10.16.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.0",
+    "react-toastify": "^9.1.3"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.0.0"
+  }
+}
