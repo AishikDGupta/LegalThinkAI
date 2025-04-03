@@ -9,7 +9,7 @@ pillow==10.0.0
 pypdf2==3.0.1
 pytesseract==0.3.10
 serpapi==0.1.0
-huggingface-hub==0.11.1
-transformers==4.20.1
-torch==1.12.1
-tokenizers==0.12.1
+huggingface-hub==0.11.1 
+transformers==4.20.1      
+torch==1.12.1          
+tokenizers==0.12.1        
