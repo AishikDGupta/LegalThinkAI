@@ -34,8 +34,6 @@ import { motion } from "framer-motion"
 // First, add the docx library import at the top with other imports
 import { Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType } from "docx"
 
-const BACKEND_URL = "https://legalthinkai-backend3.onrender.com"
-
 const saveAs = (blob: Blob, fileName: string) => {
   const link = document.createElement("a")
   link.href = window.URL.createObjectURL(blob)
@@ -1187,7 +1185,7 @@ ${previousDrafts.join("\n\n")}
           formData.append("file", uploadedFile)
         }
 
-        const response = await axios.post("https://legalthinkai-backend3.onrender.com/api/chat", formData, {
+        const response = await axios.post("/api/chat", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
@@ -1629,7 +1627,7 @@ ${previousDrafts.join("\n\n")}
     try {
       const formData = new FormData()
       formData.append("file", file)
-      const response = await axios.post("https://legalthinkai-backend3.onrender.com/api/upload", formData, {
+      const response = await axios.post("/api/upload", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
