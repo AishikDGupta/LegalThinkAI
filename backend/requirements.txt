@@ -8,7 +8,7 @@ transformers==4.41.1
 torch==2.1.2
 faiss-cpu==1.8.0
 numpy==1.26.4
-pypdf==4.2.0
+pypdf2==3.0.1
 pillow==10.3.0
 pytesseract==0.3.10
 serpapi==0.1.0
